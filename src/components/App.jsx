@@ -35,7 +35,7 @@ export default function App() {
       <Layout>
         <Section title="Please leave feedback">
           <FeedbackOptions
-            options={Object.keys(good, neutral, bad)}
+            options={Object.keys({good, neutral, bad})}
             onLeaveFeedback={leaveFeedback}
           />
         </Section>
